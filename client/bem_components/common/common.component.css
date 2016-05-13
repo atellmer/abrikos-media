@@ -122,6 +122,30 @@ a:focus {
   outline: none;
   text-decoration: none;
 }
+.font--black {
+  color: #000;
+}
+.font--black:hover {
+  color: #000;
+}
+.font--black:active {
+  color: #000;
+}
+.font--black:focus {
+  color: #000;
+}
+.font--white {
+  color: #fff;
+}
+.font--white:hover {
+  color: #fff;
+}
+.font--white:active {
+  color: #fff;
+}
+.font--white:focus {
+  color: #fff;
+}
 .likearts-content .container-fluid {
   padding: 0;
   margin: 0;
@@ -130,7 +154,6 @@ a:focus {
   width: 100%;
   max-width: 1550px;
   margin: 0 auto;
-  padding: 0;
 }
 .likearts-content .main-area {
   position: relative;

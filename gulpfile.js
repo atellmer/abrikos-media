@@ -4,6 +4,7 @@ var gulp = require('gulp');
 var stylus = require('gulp-stylus');
 var nib = require('nib');
 var connect = require('gulp-connect');
+var spritesmith = require('gulp.spritesmith');
 var config = require('./config');
 
 console.log('----------------------------');
@@ -11,16 +12,19 @@ console.log('mode: ', config.mode);
 console.log('debug: ', config.debug);
 console.log('----------------------------');
 
-
 var path = {
 	root: 'client/',
 	bem: function () {
 		return this.root + 'bem_components/'
+	},
+	img: function () {
+		return this.root + 'img/'
 	}
 };
 
 var scriptsCash = null;
 var stylusCash = null;
+var spriteData = null;
 
 //connect
 gulp.task('connect', function () {
@@ -69,12 +73,25 @@ gulp.task('html', function () {
 		.pipe(connect.reload());
 });
 
+//sprite
+gulp.task('sprite', function () {
+   spriteData = gulp.src(path.img() + 'icons/source/**/*.*')
+		.pipe(spritesmith({
+			imgName: 'sprite.png',
+			cssName: 'sprite.css'
+		}))
+		.pipe(gulp.dest(path.img() + 'icons/sprite/'));
+		
+  return spriteData;
+});
+
 //watch
 gulp.task('watch', function () {
 	gulp.watch(path.bem() + '**/*.js', ['scripts']);
 	gulp.watch(path.bem() + '**/*.styl', ['stylus']);
 	gulp.watch(path.root + '*.html', ['html']);
+	gulp.watch(path.img() + 'icons/source/**/*.*', ['sprite']);
 });
 
-gulp.task('default', ['connect', 'scripts', 'stylus', 'html', 'watch']);
+gulp.task('default', ['connect', 'scripts', 'stylus', 'html', 'sprite', 'watch']);
 

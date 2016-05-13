@@ -15,9 +15,82 @@ $container-width = 1550px
 .likearts-content .header
 	position relative
 	width 100%
+	padding 45px 0
+	@media screen and (max-width: $tablet)
+		padding 15px 0
 
 .likearts-content .header__content
 	width 100%
 	max-width $container-width
 	margin 0 auto
+	padding 0 15px
+	flex-flow row wrap
+	justify-content space-between
+	@media screen and (max-width: $tablet)
+		flex-flow column wrap
+	
+.likearts-content .header__logo
+	width 162px
+	height 108px
+	@media screen and (max-width: 992px)
+		width 108px
+		height 72px
+	@media screen and (max-width: $phone)
+		width 72px
+		height 48px
+	
+.likearts-content .header__logo--white
+	background-image url('../../img/logo/logo-w.png')
+	
+.likearts-content .header__info
+	@media screen and (max-width: $tablet)
+		margin 20px 0
+	@media screen and (max-width: $phone)
+		flex-flow column wrap
+		margin 10px 0
+	
+.likearts-content .header__contacts
+	padding 0 0 0 20px
+	border-left 2px solid #FFF
+	margin-right 80px
+	@media screen and (max-width: $notebook)
+		margin-right 40px
+	@media screen and (max-width: $phone)
+		margin 10px 0
+		border none
+		padding 0
+		text-align center
+	
+.likearts-content .header__phone
+	font-size 2.4rem
+	font-weight 700
+	@media screen and (max-width: 992px)
+		font-size 1.8rem
+	@media screen and (max-width: $phone)
+		font-size 1.4rem
+	
+.likearts-content .header__link
+	font-size 1.8rem
+	@media screen and (max-width: $phone)
+		font-size 1.2rem
+	
+.likearts-content .header__social
+	margin-left 80px
+	@media screen and (max-width: $notebook)
+		margin-left 40px
+	@media screen and (max-width: $phone)
+		margin 10px 0
+	
+.likearts-content .header__social-item
+	display block
+	
+.header__social-link
+	display inline-block
+	height auto
+	margin 0 8px
+	&:first-child
+		margin 0 8px 0 0
+	&:last-child
+		margin 0 0 0 8px
+	
 
