@@ -80,6 +80,14 @@
 .cursor-pointer {
   cursor: pointer;
 }
+.desktop-visible {
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .desktop-visible {
+    display: none;
+  }
+}
 .tablet-visible {
   position: relative;
   display: none;
