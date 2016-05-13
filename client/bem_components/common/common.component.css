@@ -27,7 +27,8 @@
   width: 100%;
   border-top: 1px solid #e0e0e0;
 }
-.cover {
+.cover,
+.likearts-content .main-area {
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -44,15 +45,12 @@
   -webkit-box-orient: horizontal;
   -moz-box-orient: horizontal;
   -o-box-orient: horizontal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
   -webkit-box-lines: single;
   -moz-box-lines: single;
   -o-box-lines: single;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
   -webkit-box-pack: center;
   -moz-box-pack: center;
   -o-box-pack: center;
@@ -103,12 +101,11 @@
 .likearts-content {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 3rem;
   background: #fff;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   overflow-scrolling: touch;
-  color: #383838;
+  color: $primary-color-text;
   overflow-x: hidden;
   image-rendering: optimizeQuality;
   text-rendering: geometricPrecision;
@@ -131,6 +128,13 @@ a:focus {
 }
 .likearts-content .container {
   width: 100%;
-  max-width: 1340px;
+  max-width: 1550px;
   margin: 0 auto;
+  padding: 0;
+}
+.likearts-content .main-area {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 1080px;
 }

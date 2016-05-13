@@ -1,0 +1,10 @@
+.likearts-content .footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.likearts-content .footer__content {
+  width: 100%;
+  max-width: 1550px;
+  margin: 0 auto;
+}

@@ -1,9 +1,8 @@
 @import 'nib'
 
 $bg-color = #FFF
-$primary-color = #689f38
-$primary-color-text = #383838
-$secondary-color-text = #898989
+$lk-yellow = #fcde02
+$lk-green = #8ac500
 
 $phone = 640px
 $tablet = 768px
@@ -11,7 +10,7 @@ $notebook = 1024px
 $desktop = 1600px
 $full-hd = 1920px
 
-$container-width = 1340px
+$container-width = 1550px
 
 
 //helpers
@@ -46,8 +45,7 @@ $container-width = 1340px
 	
 .flex
 	display flex
-	flex-direction row
-	flex-wrap nowrap
+	flex-flow row nowrap
 	justify-content center
 	align-items center
 	
@@ -78,7 +76,6 @@ $container-width = 1340px
 .likearts-content
 	font-family 'Open Sans', sans-serif
 	font-weight 400
-	font-size 3rem
 	background $bg-color
 	font-smoothing antialiased
 	overflow-scrolling touch
@@ -106,3 +103,12 @@ a
 	width 100%
 	max-width $container-width
 	margin 0 auto
+	padding 0
+	
+.likearts-content .main-area
+	position relative
+	width 100%
+	height auto
+	min-height 1080px
+	@extend .cover
+	

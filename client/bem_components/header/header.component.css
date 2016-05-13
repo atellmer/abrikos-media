@@ -1,0 +1,9 @@
+.likearts-content .header {
+  position: relative;
+  width: 100%;
+}
+.likearts-content .header__content {
+  width: 100%;
+  max-width: 1550px;
+  margin: 0 auto;
+}
