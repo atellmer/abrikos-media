@@ -14,13 +14,26 @@ $container-width = 1550px
 
 .likearts-content .action-btn
 	padding 20px 30px
-	background linear-gradient(180deg, #91c800, #87c400)
 	border-radius 40px
 	cursor pointer
 	@media screen and (max-width: $phone)
 		padding 10px 20px
+		
+.likearts-content .action-btn--green
+	background-color #91c800
 	&:hover
-		background linear-gradient(180deg, #8BC34A, #64DD17)
+		background-color #8BC34A
+		
+		
+.likearts-content .action-btn--yellow
+	display inline-block
+	background-color #fcdd02
+	padding 10px 20px
+	margin 30px 0 0 100px
+	&:hover
+		background-color #FFEB3B
+	@media screen and (max-width: 768px)
+		margin 30px auto 0 auto
 
 .likearts-content .action-btn__text
 	font-size 1.9rem
@@ -34,6 +47,9 @@ $container-width = 1550px
 	@media screen and (max-width: $phone)
 		font-size 1rem
 		
+.likearts-content .action-btn__text--small
+	font-size 1.4rem
+		
 .likearts-content  .action-btn__icon
 	display inline-block
 	position relative
@@ -42,3 +58,7 @@ $container-width = 1550px
 		top 2px
 	@media screen and (max-width: $phone)
 		top 4px
+		
+.likearts-content  .action-btn__icon--small
+	@media screen and (max-width: 992px)
+		top 0

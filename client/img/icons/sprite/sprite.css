@@ -18,49 +18,91 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-arrow--b {
   background-image: url(sprite.png);
-  background-position: 0px -80px;
+  background-position: -246px -50px;
   width: 9px;
   height: 15px;
+}
+.icon-arrow--small {
+  background-image: url(sprite.png);
+  background-position: -255px -50px;
+  width: 6px;
+  height: 11px;
 }
 .icon-arrow--w {
   background-image: url(sprite.png);
-  background-position: -9px -80px;
+  background-position: -237px -50px;
   width: 9px;
   height: 15px;
 }
-.icon-fb--b {
+.icon-works--1 {
   background-image: url(sprite.png);
   background-position: 0px 0px;
+  width: 69px;
+  height: 75px;
+}
+.icon-works--2 {
+  background-image: url(sprite.png);
+  background-position: -69px -62px;
+  width: 69px;
+  height: 57px;
+}
+.icon-works--3 {
+  background-image: url(sprite.png);
+  background-position: -140px 0px;
+  width: 57px;
+  height: 68px;
+}
+.icon-works--4 {
+  background-image: url(sprite.png);
+  background-position: 0px -75px;
+  width: 61px;
+  height: 76px;
+}
+.icon-works--5 {
+  background-image: url(sprite.png);
+  background-position: -69px 0px;
+  width: 71px;
+  height: 62px;
+}
+.icon-works--6 {
+  background-image: url(sprite.png);
+  background-position: -197px 0px;
+  width: 71px;
+  height: 50px;
+}
+.icon-fb--b {
+  background-image: url(sprite.png);
+  background-position: -140px -108px;
   width: 40px;
   height: 40px;
 }
 .icon-fb--w {
   background-image: url(sprite.png);
-  background-position: -40px 0px;
+  background-position: 0px -151px;
   width: 40px;
   height: 40px;
 }
 .icon-ig--b {
   background-image: url(sprite.png);
-  background-position: 0px -40px;
+  background-position: -40px -151px;
   width: 40px;
   height: 40px;
 }
 .icon-ig--w {
   background-image: url(sprite.png);
-  background-position: -40px -40px;
+  background-position: -197px -90px;
   width: 40px;
   height: 40px;
 }
 .icon-vk--b {
   background-image: url(sprite.png);
-  background-position: -80px 0px;
+  background-position: -197px -50px;
   width: 40px;
   height: 40px;
 }
 .icon-vk--w {
   background-image: url(sprite.png);
-  background-position: -80px -40px;
+  background-position: -140px -68px;
   width: 40px;
   height: 40px;
 }

@@ -1,10 +1,5 @@
 .likearts-content .action-btn {
   padding: 20px 30px;
-  background: -webkit-linear-gradient(270deg, #91c800, #87c400);
-  background: -moz-linear-gradient(270deg, #91c800, #87c400);
-  background: -o-linear-gradient(270deg, #91c800, #87c400);
-  background: -ms-linear-gradient(270deg, #91c800, #87c400);
-  background: linear-gradient(180deg, #91c800, #87c400);
   -webkit-border-radius: 40px;
   border-radius: 40px;
   cursor: pointer;
@@ -14,12 +9,25 @@
     padding: 10px 20px;
   }
 }
-.likearts-content .action-btn:hover {
-  background: -webkit-linear-gradient(270deg, #8bc34a, #64dd17);
-  background: -moz-linear-gradient(270deg, #8bc34a, #64dd17);
-  background: -o-linear-gradient(270deg, #8bc34a, #64dd17);
-  background: -ms-linear-gradient(270deg, #8bc34a, #64dd17);
-  background: linear-gradient(180deg, #8bc34a, #64dd17);
+.likearts-content .action-btn--green {
+  background-color: #91c800;
+}
+.likearts-content .action-btn--green:hover {
+  background-color: #8bc34a;
+}
+.likearts-content .action-btn--yellow {
+  display: inline-block;
+  background-color: #fcdd02;
+  padding: 10px 20px;
+  margin: 30px 0 0 100px;
+}
+.likearts-content .action-btn--yellow:hover {
+  background-color: #ffeb3b;
+}
+@media screen and (max-width: 768px) {
+  .likearts-content .action-btn--yellow {
+    margin: 30px auto 0 auto;
+  }
 }
 .likearts-content .action-btn__text {
   font-size: 1.9rem;
@@ -42,6 +50,9 @@
     font-size: 1rem;
   }
 }
+.likearts-content .action-btn__text--small {
+  font-size: 1.4rem;
+}
 .likearts-content .action-btn__icon {
   display: inline-block;
   position: relative;
@@ -55,5 +66,10 @@
 @media screen and (max-width: 640px) {
   .likearts-content .action-btn__icon {
     top: 4px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .likearts-content .action-btn__icon--small {
+    top: 0;
   }
 }
