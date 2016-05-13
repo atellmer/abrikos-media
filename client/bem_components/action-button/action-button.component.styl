@@ -1,0 +1,43 @@
+@import 'nib'
+
+$bg-color = #FFF
+$lk-yellow = #fcde02
+$lk-green = #8ac500
+
+$phone = 640px
+$tablet = 768px
+$notebook = 1024px
+$desktop = 1600px
+$full-hd = 1920px
+
+$container-width = 1550px
+
+.likearts-content .action-btn
+	padding 20px 30px
+	background linear-gradient(180deg, #91c800, #87c400)
+	border-radius 40px
+	cursor pointer
+	@media screen and (max-width: $phone)
+		padding 10px 20px
+	&:hover
+		background linear-gradient(180deg, #8BC34A, #64DD17)
+
+.likearts-content .action-btn__text
+	font-size 1.9rem
+	font-weight 700
+	text-transform uppercase
+	letter-spacing 1px
+	user-select none
+	@media screen and (max-width: 992px)
+		font-size 1.5rem
+	@media screen and (max-width: $phone)
+		font-size 1rem
+		
+.likearts-content  .action-btn__icon
+	display inline-block
+	position relative
+	left 5px
+	@media screen and (max-width: 992px)
+		top 2px
+	@media screen and (max-width: $phone)
+		top 4px

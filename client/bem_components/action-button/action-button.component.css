@@ -1,0 +1,58 @@
+.likearts-content .action-btn {
+  padding: 20px 30px;
+  background: -webkit-linear-gradient(270deg, #91c800, #87c400);
+  background: -moz-linear-gradient(270deg, #91c800, #87c400);
+  background: -o-linear-gradient(270deg, #91c800, #87c400);
+  background: -ms-linear-gradient(270deg, #91c800, #87c400);
+  background: linear-gradient(180deg, #91c800, #87c400);
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+@media screen and (max-width: 640px) {
+  .likearts-content .action-btn {
+    padding: 10px 20px;
+  }
+}
+.likearts-content .action-btn:hover {
+  background: -webkit-linear-gradient(270deg, #8bc34a, #64dd17);
+  background: -moz-linear-gradient(270deg, #8bc34a, #64dd17);
+  background: -o-linear-gradient(270deg, #8bc34a, #64dd17);
+  background: -ms-linear-gradient(270deg, #8bc34a, #64dd17);
+  background: linear-gradient(180deg, #8bc34a, #64dd17);
+}
+.likearts-content .action-btn__text {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+@media screen and (max-width: 992px) {
+  .likearts-content .action-btn__text {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .likearts-content .action-btn__text {
+    font-size: 1rem;
+  }
+}
+.likearts-content .action-btn__icon {
+  display: inline-block;
+  position: relative;
+  left: 5px;
+}
+@media screen and (max-width: 992px) {
+  .likearts-content .action-btn__icon {
+    top: 2px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .likearts-content .action-btn__icon {
+    top: 4px;
+  }
+}

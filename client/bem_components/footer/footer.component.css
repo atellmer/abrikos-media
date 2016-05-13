@@ -2,9 +2,86 @@
   position: absolute;
   width: 100%;
   bottom: 0;
+  padding: 45px 0;
+}
+@media screen and (max-width: 992px) {
+  .likearts-content .footer {
+    position: relative;
+  }
+}
+@media screen and (max-width: 768px) {
+  .likearts-content .footer {
+    padding: 15px 0;
+  }
 }
 .likearts-content .footer__content {
   width: 100%;
   max-width: 1550px;
   margin: 0 auto;
+  padding: 0 15px;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -o-box-orient: horizontal;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .likearts-content .footer__content {
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -o-box-orient: vertical;
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    -o-box-lines: multiple;
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+  }
+}
+.likearts-content .footer__link {
+  display: inline-block;
+  font-size: 1.4rem;
+}
+@media screen and (max-width: 768px) {
+  .likearts-content .footer__link {
+    margin: 5px 0;
+  }
+}
+.likearts-content .footer__link--white {
+  color: #fff;
+  border-bottom: 2px solid transparent;
+}
+.likearts-content .footer__link--white:hover {
+  border-bottom: 2px solid #fff;
+}
+.likearts-content .footer__link--black {
+  color: #000;
+  border-bottom: 2px solid transparent;
+}
+.likearts-content .footer__link--black:hover {
+  border-bottom: 2px solid #000;
+}
+.likearts-content .footer__link--order {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.footer__link-icon {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+@media screen and (max-width: 768px) {
+  .footer__link-icon {
+    display: none;
+  }
 }

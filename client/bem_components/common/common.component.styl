@@ -56,7 +56,7 @@ $container-width = 1550px
 	display inherit!important
 	
 .transition
-	transition color .2s ease-in-out
+	transition all .2s ease-in-out
 	
 .cursor-pointer
 	cursor pointer
@@ -128,4 +128,10 @@ a
 	height auto
 	min-height 1080px
 	@extend .cover
+	@media screen and (max-width: 992px)
+		min-height 100vh
+		display flex
+		flex-flow column nowrap
+		justify-content space-between
+		align-items center
 	
