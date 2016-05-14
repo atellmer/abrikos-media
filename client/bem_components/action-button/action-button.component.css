@@ -70,7 +70,7 @@
 }
 @media screen and (max-width: 640px) {
   .likearts-content .action-btn__icon {
-    top: 4px;
+    display: none;
   }
 }
 @media screen and (max-width: 992px) {
