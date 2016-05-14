@@ -85,25 +85,33 @@
 }
 @media screen and (max-width: 768px) {
   .desktop-visible {
-    display: none;
+    display: none !important;
   }
 }
 .tablet-visible {
   position: relative;
-  display: none;
+  display: none !important;
 }
 @media screen and (max-width: 768px) {
   .tablet-visible {
-    display: inherit;
+    display: inherit !important;
   }
 }
 .phone-visible {
   position: relative;
-  display: none;
+  display: none !important;
 }
 @media screen and (max-width: 640px) {
   .phone-visible {
-    display: inherit;
+    display: inherit !important;
+  }
+}
+.phone-hide {
+  display: none !important;
+}
+@media screen and (min-width: 640px) {
+  .phone-hide {
+    display: inherit !important;
   }
 }
 .likearts-content {

@@ -18,16 +18,13 @@
 .likearts-content .action-btn--yellow {
   display: inline-block;
   background-color: #fcdd02;
-  padding: 10px 20px;
-  margin: 30px 0 0 100px;
+  color: #000;
 }
 .likearts-content .action-btn--yellow:hover {
   background-color: #ffeb3b;
 }
-@media screen and (max-width: 768px) {
-  .likearts-content .action-btn--yellow {
-    margin: 30px auto 0 auto;
-  }
+.likearts-content .action-btn--small {
+  padding: 10px 20px;
 }
 .likearts-content .action-btn__text {
   font-size: 1.9rem;
@@ -53,6 +50,14 @@
 .likearts-content .action-btn__text--small {
   font-size: 1.4rem;
 }
+.likearts-content .action-btn__text--middle {
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 640px) {
+  .likearts-content .action-btn__text--middle {
+    font-size: 1rem;
+  }
+}
 .likearts-content .action-btn__icon {
   display: inline-block;
   position: relative;
@@ -72,4 +77,7 @@
   .likearts-content .action-btn__icon--small {
     top: 0;
   }
+}
+.likearts-content .action-btn__icon--middle {
+  top: 2px;
 }

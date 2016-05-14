@@ -64,19 +64,24 @@ $container-width = 1550px
 .desktop-visible
 	position relative
 	@media screen and (max-width: $tablet)
-		display none
+		display none!important
 	
 .tablet-visible
 	position relative
-	display none
+	display none!important
 	@media screen and (max-width: $tablet)
-		display inherit
+		display inherit!important
 		
 .phone-visible
 	position relative
-	display none
+	display none!important
 	@media screen and (max-width: $phone)
-		display inherit
+		display inherit!important
+		
+.phone-hide
+	display none!important
+	@media screen and (min-width: $phone)
+		display inherit!important
 		
 .likearts-content
 	font-family 'Open Sans', sans-serif

@@ -1,17 +1,17 @@
-.likearts-content .main-area--2 {
-  background-image: url("../../img/bg/bg-2.jpg");
-  background-color: #f4f4f4;
+.likearts-content .main-area--3 {
+  background-image: url("../../img/bg/bg-3.jpg");
+  background-color: #422646;
   color: #fff;
 }
-.likearts-content .main-area--2 .main-container {
+.likearts-content .main-area--3 .main-container {
   position: relative;
 }
-.likearts-content .main-area--2 .main-container__title {
+.likearts-content .main-area--3 .main-container__title {
   font-family: 'Intro';
   font-weight: 900;
   margin: 0;
 }
-.likearts-content .main-area--2 .main-container__content {
+.likearts-content .main-area--3 .main-container__content {
   -webkit-box-orient: vertical;
   -moz-box-orient: vertical;
   -o-box-orient: vertical;
@@ -26,29 +26,30 @@
   margin: 50px auto;
 }
 @media screen and (max-width: 992px) {
-  .likearts-content .main-area--2 .main-container__content {
+  .likearts-content .main-area--3 .main-container__content {
     margin: 50px 0;
     padding: 0 20px;
   }
 }
-.likearts-content .main-area--2 .main-container__title--h2 {
-  font-size: 6rem;
+.likearts-content .main-area--3 .main-container__title--h2 {
+  font-size: 5rem;
   color: #000;
   text-align: left;
   width: 100%;
+  color: #fff;
 }
-@media screen and (max-width: 992px) {
-  .likearts-content .main-area--2 .main-container__title--h2 {
-    font-size: 5rem;
+@media screen and (max-width: 1024px) {
+  .likearts-content .main-area--3 .main-container__title--h2 {
+    font-size: 4rem;
     text-align: center;
   }
 }
 @media screen and (max-width: 640px) {
-  .likearts-content .main-area--2 .main-container__title--h2 {
-    font-size: 3rem;
+  .likearts-content .main-area--3 .main-container__title--h2 {
+    font-size: 2.5rem;
   }
 }
-.likearts-content .main-area--2 .steps-area {
+.likearts-content .main-area--3 .list-area {
   width: 100%;
   color: #000;
   margin: 30px 0;
@@ -69,47 +70,36 @@
   align-items: flex-start;
 }
 @media screen and (max-width: 992px) {
-  .likearts-content .main-area--2 .steps-area {
+  .likearts-content .main-area--3 .list-area {
     margin: 0;
   }
 }
-.likearts-content .main-area--2 .steps-area__item {
-  width: 33.3333%;
+.likearts-content .main-area--3 .list-area__item {
+  width: 50%;
   margin: 50px 0;
 }
 @media screen and (max-width: 992px) {
-  .likearts-content .main-area--2 .steps-area__item {
-    width: 50%;
+  .likearts-content .main-area--3 .list-area__item {
     margin: 20px 0;
   }
 }
-@media screen and (max-width: 768px) {
-  .likearts-content .main-area--2 .steps-area__item {
+@media screen and (max-width: 992px) {
+  .likearts-content .main-area--3 .list-area__item {
     width: 100%;
   }
 }
 @media screen and (max-width: 640px) {
-  .likearts-content .main-area--2 .steps-area__item {
+  .likearts-content .main-area--3 .list-area__item {
     margin: 10px 0;
   }
 }
-.likearts-content .main-area--2 .steps-area__num {
-  font-family: 'Intro';
-  font-weight: 400;
-  font-size: 1.4rem;
-}
-@media screen and (max-width: 768px) {
-  .likearts-content .main-area--2 .steps-area__num {
-    text-align: center;
-  }
-}
-.likearts-content .main-area--2 .steps-area__icon {
+.likearts-content .main-area--3 .list-area__icon {
   display: inline-block;
   position: relative;
   top: 4px;
 }
 @media screen and (max-width: 768px) {
-  .likearts-content .main-area--2 .steps-area__icon {
+  .likearts-content .main-area--3 .list-area__icon {
     -webkit-transform: scale(0.8);
     -moz-transform: scale(0.8);
     -o-transform: scale(0.8);
@@ -118,7 +108,7 @@
     margin: 0 auto;
   }
 }
-.likearts-content .main-area--2 .steps-area__content {
+.likearts-content .main-area--3 .list-area__content {
   position: relative;
   margin: 20px 0 0 0;
   -webkit-box-pack: start;
@@ -144,52 +134,73 @@
   flex-flow: row wrap;
 }
 @media screen and (max-width: 768px) {
-  .likearts-content .main-area--2 .steps-area__content {
+  .likearts-content .main-area--3 .list-area__content {
     margin: 0;
   }
 }
-.likearts-content .main-area--2 .steps-area__text {
+.likearts-content .main-area--3 .list-area__text {
   display: inline-block;
   width: 70%;
   margin: 0 0 0 20px;
   padding: 0 10px;
-  font-size: 1.8rem;
-  font-weight: 600;
+  color: #fff;
 }
 @media screen and (max-width: 992px) {
-  .likearts-content .main-area--2 .steps-area__text {
-    font-size: 1.5rem;
+  .likearts-content .main-area--3 .list-area__text {
+    width: 80%;
   }
 }
 @media screen and (max-width: 768px) {
-  .likearts-content .main-area--2 .steps-area__text {
-    font-size: 1.4rem;
+  .likearts-content .main-area--3 .list-area__text {
     width: 100%;
     margin: 5px 0;
     padding: 0;
     text-align: center;
   }
 }
+.likearts-content .main-area--3 .list-area__title {
+  font-size: 2rem;
+  font-family: 'Intro';
+  font-weight: 900;
+  margin: 0 0 30px 0;
+}
+@media screen and (max-width: 992px) {
+  .likearts-content .main-area--3 .list-area__title {
+    font-size: 1.7rem;
+    margin: 0 0 10px 0;
+  }
+}
+.likearts-content .main-area--3 .list-area__description {
+  font-size: 1.6rem;
+}
+@media screen and (max-width: 992px) {
+  .likearts-content .main-area--3 .list-area__description {
+    font-size: 1.4rem;
+  }
+}
 @media screen and (max-width: 640px) {
-  .likearts-content .main-area--2 .steps-area__text {
+  .likearts-content .main-area--3 .list-area__description {
     font-size: 1.2rem;
   }
 }
-.likearts-content .main-area--2 .action-link {
-  display: block;
+.likearts-content .main-area--3 .action-link {
   position: relative;
-  top: 30px;
-  left: 100px;
+  display: block;
+  margin: 0 0 80px 0;
+  -webkit-align-self: flex-start;
+  align-self: flex-start;
+  -ms-flex-item-align: start;
 }
-@media screen and (max-width: 768px) {
-  .likearts-content .main-area--2 .action-link {
-    top: 0;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-    margin: 15px 0;
+@media screen and (max-width: 1024px) {
+  .likearts-content .main-area--3 .action-link {
+    -webkit-align-self: center;
+    align-self: center;
+    -ms-flex-item-align: center;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .likearts-content .main-area--3 .action-link {
+    top: 30px;
   }
 }
