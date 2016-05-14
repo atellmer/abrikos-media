@@ -18,7 +18,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-arrow--b {
   background-image: url(sprite.png);
-  background-position: -274px -133px;
+  background-position: -276px -133px;
   width: 9px;
   height: 15px;
 }
@@ -30,9 +30,15 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-arrow--w {
   background-image: url(sprite.png);
-  background-position: -265px -133px;
+  background-position: -267px -133px;
   width: 9px;
   height: 15px;
+}
+.icon-confirm {
+  background-image: url(sprite.png);
+  background-position: -225px -133px;
+  width: 42px;
+  height: 42px;
 }
 .icon-list--1 {
   background-image: url(sprite.png);
@@ -96,37 +102,37 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-fb--b {
   background-image: url(sprite.png);
-  background-position: 0px -213px;
+  background-position: -80px -213px;
   width: 40px;
   height: 40px;
 }
 .icon-fb--w {
   background-image: url(sprite.png);
-  background-position: -40px -213px;
+  background-position: -120px -213px;
   width: 40px;
   height: 40px;
 }
 .icon-ig--b {
   background-image: url(sprite.png);
-  background-position: -80px -213px;
+  background-position: -160px -213px;
   width: 40px;
   height: 40px;
 }
 .icon-ig--w {
   background-image: url(sprite.png);
-  background-position: -164px -76px;
+  background-position: -40px -213px;
   width: 40px;
   height: 40px;
 }
 .icon-vk--b {
   background-image: url(sprite.png);
-  background-position: -225px -173px;
+  background-position: -164px -76px;
   width: 40px;
   height: 40px;
 }
 .icon-vk--w {
   background-image: url(sprite.png);
-  background-position: -225px -133px;
+  background-position: 0px -213px;
   width: 40px;
   height: 40px;
 }

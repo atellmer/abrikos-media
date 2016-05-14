@@ -114,6 +114,9 @@
     display: inherit !important;
   }
 }
+.text-bold {
+  font-weight: 700;
+}
 .likearts-content {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
