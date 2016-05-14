@@ -1,0 +1,67 @@
+@import 'nib'
+
+$bg-color = #FFF
+$lk-yellow = #fcde02
+$lk-green = #8ac500
+
+$phone = 640px
+$tablet = 768px
+$notebook = 1024px
+$desktop = 1600px
+$full-hd = 1920px
+
+$container-width = 1550px
+
+.likearts-content .slider-area .lk-slider
+	width 100%
+	height auto
+	min-height 400px
+	background-color rgba(255, 255, 255, 0.1)
+	padding 10px
+	margin 65px auto 0 auto
+	@media screen and (max-width: 1600px)
+		width 90%
+
+.likearts-content .slider-area .lk-slider__btn
+	position absolute
+	cursor pointer
+	top 50%
+	transform translateY(-50%)
+	
+.likearts-content .slider-area .lk-slider__btn--prev
+	left -30px
+	@media screen and (max-width: $phone)
+		left -25px
+	
+.likearts-content .slider-area .lk-slider__btn--next
+	right -30px
+	@media screen and (max-width: $phone)
+		right -25px
+	
+.likearts-content .slider-area .lk-slider__icon
+	position absolute
+	top 50%
+	left 50%
+	transform translate(-50%, -50%)
+	color #FFF
+	font-size 8rem
+	
+.likearts-content .slider-area .lk-indicators
+	position absolute
+	bottom -120px
+	@media screen and (max-width: 992px)
+		bottom -125px
+	@media screen and (max-width: $tablet)
+		bottom -60px
+	
+.likearts-content .carousel-indicators .active
+	width 14px
+	height 14px
+	transform translateY(2px)
+	background-color transparent!important
+	border 1px solid #FFF
+	
+.likearts-content .carousel-indicators li
+	background-color #FFF
+	width 7px
+	height 7px

@@ -1,0 +1,66 @@
+@import 'nib'
+
+$bg-color = #FFF
+$lk-yellow = #fcde02
+$lk-green = #8ac500
+
+$phone = 640px
+$tablet = 768px
+$notebook = 1024px
+$desktop = 1600px
+$full-hd = 1920px
+
+$container-width = 1550px
+
+.likearts-content .main-area--5
+	background-image url('../../img/bg/bg-4.jpg')
+	background-color #422646
+	color #FFF
+	
+.likearts-content .main-area--5 .main-container
+	position relative
+	
+.likearts-content .main-area--5 .main-container__title
+	font-family 'Intro'
+	font-weight 900
+	margin 0
+	
+.likearts-content .main-area--5 .main-container__content
+	flex-flow column wrap
+	width 100%
+	max-width 1550px
+	margin 50px auto
+	@media screen and (max-width: 992px)
+		margin 50px 0
+		padding 0 20px
+
+.likearts-content .main-area--5 .main-container__title--h2
+	font-size 5rem
+	color #000
+	text-align left
+	width 100%
+	color #FFF
+	@media screen and (max-width: $notebook)
+		font-size 4rem
+		text-align center
+	@media screen and (max-width: $phone)
+		font-size 2.5rem
+		
+.likearts-content .main-area--5 .slider-area
+	width 100%
+	
+.likearts-content .main-area--5 .case
+	flex-flow row wrap
+	
+.likearts-content .main-area--5 .case__item
+	display block
+	width calc(25% - 20px)
+	height 250px
+	background-color #FFF
+	margin 10px
+	@media screen and (max-width: 992px)
+		width calc(50% - 20px)
+	@media screen and (max-width: $phone)
+		width calc(100% - 20px)
+		height 150px
+	
