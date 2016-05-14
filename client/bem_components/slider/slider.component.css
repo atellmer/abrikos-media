@@ -54,6 +54,11 @@
   color: #fff;
   font-size: 8rem;
 }
+@media screen and (max-width: 640px) {
+  .likearts-content .slider-area .lk-slider__icon {
+    font-size: 4rem;
+  }
+}
 .likearts-content .slider-area .lk-indicators {
   position: absolute;
   bottom: -120px;
