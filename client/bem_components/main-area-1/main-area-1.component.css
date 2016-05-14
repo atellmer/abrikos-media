@@ -60,6 +60,7 @@
   font-style: italic;
   text-align: center;
   margin: 70px 0 80px 0;
+  padding: 0 15px;
 }
 @media screen and (max-width: 1400px) {
   .likearts-content .main-area--1 .main-container__description {
@@ -68,13 +69,13 @@
 }
 @media screen and (max-width: 992px) {
   .likearts-content .main-area--1 .main-container__description {
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin: 40px 0;
   }
 }
 @media screen and (max-width: 640px) {
   .likearts-content .main-area--1 .main-container__description {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 20px 0;
   }
 }

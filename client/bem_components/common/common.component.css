@@ -171,7 +171,7 @@ a:focus {
 }
 @media screen and (max-width: 992px) {
   .likearts-content .main-area {
-    min-height: 100vh;
+    min-height: 0;
     display: -webkit-box;
     display: -moz-box;
     display: -webkit-flex;
