@@ -11,6 +11,11 @@
     width: 90%;
   }
 }
+@media screen and (max-width: 768px) {
+  .likearts-content .slider-area .lk-slider {
+    margin: 45px auto 0 auto;
+  }
+}
 .likearts-content .slider-area .lk-slider__btn {
   position: absolute;
   cursor: pointer;

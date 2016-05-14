@@ -38,10 +38,14 @@
   width: 100%;
   color: #fff;
 }
+@media screen and (max-width: 1600px) {
+  .likearts-content .main-area--5 .main-container__title--h2 {
+    text-align: center;
+  }
+}
 @media screen and (max-width: 1024px) {
   .likearts-content .main-area--5 .main-container__title--h2 {
     font-size: 4rem;
-    text-align: center;
   }
 }
 @media screen and (max-width: 640px) {
