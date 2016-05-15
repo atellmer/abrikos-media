@@ -40,6 +40,30 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 42px;
   height: 42px;
 }
+.icon-fb--b {
+  background-image: url(sprite.png);
+  background-position: -40px -213px;
+  width: 40px;
+  height: 40px;
+}
+.icon-fb--w {
+  background-image: url(sprite.png);
+  background-position: -80px -213px;
+  width: 40px;
+  height: 40px;
+}
+.icon-ig--b {
+  background-image: url(sprite.png);
+  background-position: -160px -213px;
+  width: 40px;
+  height: 40px;
+}
+.icon-ig--w {
+  background-image: url(sprite.png);
+  background-position: 0px -213px;
+  width: 40px;
+  height: 40px;
+}
 .icon-list--1 {
   background-image: url(sprite.png);
   background-position: 0px -72px;
@@ -63,6 +87,36 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   background-position: -225px 0px;
   width: 65px;
   height: 65px;
+}
+.icon-social-mini--ig {
+  background-image: url(sprite.png);
+  background-position: -164px -116px;
+  width: 24px;
+  height: 24px;
+}
+.icon-social-mini--vk {
+  background-image: url(sprite.png);
+  background-position: -249px -175px;
+  width: 24px;
+  height: 24px;
+}
+.icon-social-mini--yt {
+  background-image: url(sprite.png);
+  background-position: -225px -175px;
+  width: 24px;
+  height: 24px;
+}
+.icon-vk--b {
+  background-image: url(sprite.png);
+  background-position: -120px -213px;
+  width: 40px;
+  height: 40px;
+}
+.icon-vk--w {
+  background-image: url(sprite.png);
+  background-position: -164px -76px;
+  width: 40px;
+  height: 40px;
 }
 .icon-works--1 {
   background-image: url(sprite.png);
@@ -99,40 +153,4 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   background-position: -140px -151px;
   width: 71px;
   height: 50px;
-}
-.icon-fb--b {
-  background-image: url(sprite.png);
-  background-position: -80px -213px;
-  width: 40px;
-  height: 40px;
-}
-.icon-fb--w {
-  background-image: url(sprite.png);
-  background-position: -120px -213px;
-  width: 40px;
-  height: 40px;
-}
-.icon-ig--b {
-  background-image: url(sprite.png);
-  background-position: -160px -213px;
-  width: 40px;
-  height: 40px;
-}
-.icon-ig--w {
-  background-image: url(sprite.png);
-  background-position: -40px -213px;
-  width: 40px;
-  height: 40px;
-}
-.icon-vk--b {
-  background-image: url(sprite.png);
-  background-position: -164px -76px;
-  width: 40px;
-  height: 40px;
-}
-.icon-vk--w {
-  background-image: url(sprite.png);
-  background-position: 0px -213px;
-  width: 40px;
-  height: 40px;
 }

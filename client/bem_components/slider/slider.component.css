@@ -1,4 +1,4 @@
-.likearts-content .slider-area .lk-slider {
+.likearts-content .lk-slider {
   width: 100%;
   height: auto;
   min-height: 400px;
@@ -7,16 +7,16 @@
   margin: 65px auto 0 auto;
 }
 @media screen and (max-width: 1600px) {
-  .likearts-content .slider-area .lk-slider {
+  .likearts-content .lk-slider {
     width: 90%;
   }
 }
 @media screen and (max-width: 768px) {
-  .likearts-content .slider-area .lk-slider {
+  .likearts-content .lk-slider {
     margin: 45px auto 0 auto;
   }
 }
-.likearts-content .slider-area .lk-slider__btn {
+.likearts-content .lk-slider__btn {
   position: absolute;
   cursor: pointer;
   top: 50%;
@@ -26,23 +26,23 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.likearts-content .slider-area .lk-slider__btn--prev {
+.likearts-content .lk-slider__btn--prev {
   left: -30px;
 }
 @media screen and (max-width: 640px) {
-  .likearts-content .slider-area .lk-slider__btn--prev {
+  .likearts-content .lk-slider__btn--prev {
     left: -25px;
   }
 }
-.likearts-content .slider-area .lk-slider__btn--next {
+.likearts-content .lk-slider__btn--next {
   right: -30px;
 }
 @media screen and (max-width: 640px) {
-  .likearts-content .slider-area .lk-slider__btn--next {
+  .likearts-content .lk-slider__btn--next {
     right: -25px;
   }
 }
-.likearts-content .slider-area .lk-slider__icon {
+.likearts-content .lk-slider__icon {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -55,21 +55,21 @@
   font-size: 8rem;
 }
 @media screen and (max-width: 640px) {
-  .likearts-content .slider-area .lk-slider__icon {
+  .likearts-content .lk-slider__icon {
     font-size: 4rem;
   }
 }
-.likearts-content .slider-area .lk-indicators {
+.likearts-content .lk-indicators {
   position: absolute;
   bottom: -120px;
 }
 @media screen and (max-width: 992px) {
-  .likearts-content .slider-area .lk-indicators {
+  .likearts-content .lk-indicators {
     bottom: -125px;
   }
 }
 @media screen and (max-width: 768px) {
-  .likearts-content .slider-area .lk-indicators {
+  .likearts-content .lk-indicators {
     bottom: -60px;
   }
 }

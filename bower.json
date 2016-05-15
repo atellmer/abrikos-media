@@ -8,6 +8,7 @@
   "license": "MIT",
   "homepage": "",
   "dependencies": {
-    "bootstrap": "~3.3.6"
+    "bootstrap": "~3.3.6",
+    "slick-carousel": "^1.6.0"
   }
 }

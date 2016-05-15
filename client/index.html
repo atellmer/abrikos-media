@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
 	<title>Abrikos Media</title>
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="fonts/fonts.css">
 	<link rel="stylesheet" href="img/icons/sprite/sprite.css">
@@ -14,11 +15,13 @@
 	<link rel="stylesheet" href="bem_components/footer/footer.component.css">
 	<link rel="stylesheet" href="bem_components/action-button/action-button.component.css">
 	<link rel="stylesheet" href="bem_components/slider/slider.component.css">
+	<link rel="stylesheet" href="bem_components/carousel/carousel.component.css">
 	<link rel="stylesheet" href="bem_components/main-area-1/main-area-1.component.css">
 	<link rel="stylesheet" href="bem_components/main-area-2/main-area-2.component.css">
 	<link rel="stylesheet" href="bem_components/main-area-3/main-area-3.component.css">
 	<link rel="stylesheet" href="bem_components/main-area-4/main-area-4.component.css">
 	<link rel="stylesheet" href="bem_components/main-area-5/main-area-5.component.css">
+	<link rel="stylesheet" href="bem_components/main-area-6/main-area-6.component.css">
 
 </head>
 
@@ -52,7 +55,7 @@
 				</div>
 			</header>
 
-			<div class="container main-container">
+			<section class="container main-container">
 				<div class="flex main-container__content">
 					<h1 class="main-container__title main-container__title--h1">Мы Abrikos Media</h1>
 					<div class="main-container__description">
@@ -64,7 +67,7 @@
 						<span class="icon-arrow--w action-btn__icon"></span>
 					</div>
 				</div>
-			</div>
+			</section>
 
 			<footer class="footer footer--white">
 				<div class="flex footer__content">
@@ -109,7 +112,7 @@
 				</div>
 			</header>
 
-			<div class="container main-container">
+			<section class="container main-container">
 				<div class="flex main-container__content">
 					<h2 class="main-container__title main-container__title--h2">Как мы работаем</h2>
 					<div class="flex steps-area">
@@ -175,7 +178,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 
 			<footer class="footer footer--black">
 				<div class="flex footer__content">
@@ -221,7 +224,7 @@
 				</div>
 			</header>
 
-			<div class="container main-container">
+			<section class="container main-container">
 				<div class="flex main-container__content">
 					<h2 class="main-container__title main-container__title--h2">Почему реклама у видеоблогеров?</h2>
 					<div class="flex list-area">
@@ -276,7 +279,7 @@
 					</a>
 
 				</div>
-			</div>
+			</section>
 
 			<footer class="footer footer--white">
 				<div class="flex footer__content">
@@ -321,7 +324,7 @@
 				</div>
 			</header>
 
-			<div class="container main-container">
+			<section class="container main-container">
 				<div class="flex main-container__content">
 					<h2 class="main-container__title main-container__title--h2">Работая с нами, Вы получаете:</h2>
 					<div class="tooltips-area tooltips-area--desktop">
@@ -371,7 +374,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 
 			<footer class="footer footer--black">
 				<div class="flex footer__content">
@@ -389,7 +392,7 @@
 		</div>
 
 
-		<div class="main-area main-area--5">
+		<div class="main-area main-area--5 phone-hide">
 
 			<header class="desktop-visible header header--white">
 				<div class="flex header__content">
@@ -416,7 +419,7 @@
 				</div>
 			</header>
 
-			<div class="container main-container">
+			<section class="container main-container">
 				<div class="flex main-container__content">
 					<h2 class="main-container__title main-container__title--h2">Наши кейсы</h2>
 					<div class="slider-area">
@@ -490,7 +493,7 @@
 
 
 				</div>
-			</div>
+			</section>
 
 			<footer class="footer footer--white">
 				<div class="flex footer__content">
@@ -507,10 +510,293 @@
 
 		</div>
 
+
+		<div class="main-area main-area--6">
+
+			<header class="desktop-visible header header--black">
+				<div class="flex header__content">
+					<div class="cover header__logo"></div>
+					<div class="flex header__info">
+						<div class="header__contacts">
+							<div class="header__phone">8 (800) 568-42-43</div>
+							<div class="header__mail">
+								<a class="font--black header__link" href="mailto:abrikos@abrikosmedia.ru">abrikos@abrikosmedia.ru</a>
+							</div>
+						</div>
+						<div class="flex header__social">
+							<a href="#" class="header__social-link">
+								<span class="icon-vk--b header__social-item"></span>
+							</a>
+							<a href="#" class="header__social-link">
+								<span class="icon-fb--b header__social-item"></span>
+							</a>
+							<a href="#" class="header__social-link">
+								<span class="icon-ig--b header__social-item"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<section class="container main-container">
+				<div class="flex main-container__content">
+					<h2 class="main-container__title main-container__title--h2">Наши блогеры</h2>
+
+					<div class="carousel-area">
+						<div class="lk-carousel">
+
+							<div class="paper-shadow-z2 lk-carousel__item">
+								<div class="info">
+									<img src="img/carousel/item--1.png" class="img-responsive info__pic" alt="some text">
+									<div class="info__description">
+										<a href="#" target="_blank" class="info__name">Костя Павлов</a>
+										<div class="flex info__detial">
+											<div class="info__subscribers">
+												<div class="info__count">1 580 000 +</div>
+												<div class="info__sign">подписчиков</div>
+											</div>
+											<div class="flex info__social">
+												<a href="#" class="transition icon-social-mini--ig info__social-item"></a>
+												<a href="#" class="transition icon-social-mini--vk info__social-item"></a>
+												<a href="#" class="transition icon-social-mini--yt info__social-item"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="paper-shadow-z2 lk-carousel__item">
+								<div class="info">
+									<img src="img/carousel/item--2.png" class="img-responsive info__pic" alt="some text">
+									<div class="info__description">
+										<a href="#" target="_blank" class="info__name">Маш Милаш</a>
+										<div class="flex info__detial">
+											<div class="info__subscribers">
+												<div class="info__count">1 000 000 +</div>
+												<div class="info__sign">подписчиков</div>
+											</div>
+											<div class="flex info__social">
+												<a href="#" class="transition icon-social-mini--ig info__social-item"></a>
+												<a href="#" class="transition icon-social-mini--vk info__social-item"></a>
+												<a href="#" class="transition icon-social-mini--yt info__social-item"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="paper-shadow-z2 lk-carousel__item">
+								<div class="info">
+									<img src="img/carousel/item--3.png" class="img-responsive info__pic" alt="some text">
+									<div class="info__description">
+										<a href="#" target="_blank" class="info__name">Тимур Сидельников</a>
+										<div class="flex info__detial">
+											<div class="info__subscribers">
+												<div class="info__count">550 000 +</div>
+												<div class="info__sign">подписчиков</div>
+											</div>
+											<div class="flex info__social">
+												<a href="#" class="transition icon-social-mini--ig info__social-item"></a>
+												<a href="#" class="transition icon-social-mini--vk info__social-item"></a>
+												<a href="#" class="transition icon-social-mini--yt info__social-item"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="paper-shadow-z2 lk-carousel__item">
+								<div class="info">
+									<img src="img/carousel/item--1.png" class="img-responsive info__pic" alt="some text">
+									<div class="info__description">
+										<a href="#" target="_blank" class="info__name">Костя Павлов</a>
+										<div class="flex info__detial">
+											<div class="info__subscribers">
+												<div class="info__count">1 580 000 +</div>
+												<div class="info__sign">подписчиков</div>
+											</div>
+											<div class="flex info__social">
+												<a href="#" class="transition icon-social-mini--ig info__social-item"></a>
+												<a href="#" class="transition icon-social-mini--vk info__social-item"></a>
+												<a href="#" class="transition icon-social-mini--yt info__social-item"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="paper-shadow-z2 lk-carousel__item">
+								<div class="info">
+									<img src="img/carousel/item--2.png" class="img-responsive info__pic" alt="some text">
+									<div class="info__description">
+										<a href="#" target="_blank" class="info__name">Маш Милаш</a>
+										<div class="flex info__detial">
+											<div class="info__subscribers">
+												<div class="info__count">1 000 000 +</div>
+												<div class="info__sign">подписчиков</div>
+											</div>
+											<div class="flex info__social">
+												<a href="#" class="transition icon-social-mini--ig info__social-item"></a>
+												<a href="#" class="transition icon-social-mini--vk info__social-item"></a>
+												<a href="#" class="transition icon-social-mini--yt info__social-item"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="paper-shadow-z2 lk-carousel__item">
+								<div class="info">
+									<img src="img/carousel/item--3.png" class="img-responsive info__pic" alt="some text">
+									<div class="info__description">
+										<a href="#" target="_blank" class="info__name">Тимур Сидельников</a>
+										<div class="flex info__detial">
+											<div class="info__subscribers">
+												<div class="info__count">550 000 +</div>
+												<div class="info__sign">подписчиков</div>
+											</div>
+											<div class="flex info__social">
+												<a href="#" class="transition icon-social-mini--ig info__social-item"></a>
+												<a href="#" class="transition icon-social-mini--vk info__social-item"></a>
+												<a href="#" class="transition icon-social-mini--yt info__social-item"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					
+					<div class="phone-hide flex list-area">
+						<div class="list-area__column">
+							<div class="flex paper-shadow-z1 list-area__item">
+								<img src="img/channels/channel--1.png" class="img-responsive" alt="some text">
+								<div class="detail">
+									<a href="#" target="_blank" class="detail__name">Костя Павлов</a>
+									<div class="detail__count">1 580 000 +</div>
+									<div class="detail__sign">подписчиков</div>
+								</div>
+							</div>
+							<div class="flex paper-shadow-z1 list-area__item">
+								<img src="img/channels/channel--2.png" class="img-responsive" alt="some text">
+								<div class="detail">
+									<a href="#" target="_blank" class="detail__name">Макс Брандт</a>
+									<div class="detail__count">1 200 000 +</div>
+									<div class="detail__sign">подписчиков</div>
+								</div>
+							</div>
+							<div class="flex paper-shadow-z1 list-area__item">
+								<img src="img/channels/channel--3.png" class="img-responsive" alt="some text">
+								<div class="detail">
+									<a href="#" target="_blank" class="detail__name">LizzzTV</a>
+									<div class="detail__count">1 000 000 +</div>
+									<div class="detail__sign">подписчиков</div>
+								</div>
+							</div>
+							<div class="flex paper-shadow-z1 list-area__item">
+								<img src="img/channels/channel--4.png" class="img-responsive" alt="some text">
+								<div class="detail">
+									<a href="#" target="_blank" class="detail__name">Кристина Финк</a>
+									<div class="detail__count">550 000 +</div>
+									<div class="detail__sign">подписчиков</div>
+								</div>
+							</div>
+						</div>
+						<div class="list-area__column">
+							<div class="flex paper-shadow-z1 list-area__item">
+								<img src="img/channels/channel--5.png" class="img-responsive" alt="some text">
+								<div class="detail">
+									<a href="#" target="_blank" class="detail__name">Abrikos Media</a>
+									<div class="detail__count">1 980 000 +</div>
+									<div class="detail__sign">подписчиков</div>
+								</div>
+							</div>
+							<div class="flex paper-shadow-z1 list-area__item">
+								<img src="img/channels/channel--6.png" class="img-responsive" alt="some text">
+								<div class="detail">
+									<a href="#" target="_blank" class="detail__name">Маха Горячёва</a>
+									<div class="detail__count">1 000 000 +</div>
+									<div class="detail__sign">подписчиков</div>
+								</div>
+							</div>
+							<div class="flex paper-shadow-z1 list-area__item">
+								<img src="img/channels/channel--7.png" class="img-responsive" alt="some text">
+								<div class="detail">
+									<a href="#" target="_blank" class="detail__name">Антон из Франции</a>
+									<div class="detail__count">900 000 +</div>
+									<div class="detail__sign">подписчиков</div>
+								</div>
+							</div>
+							<div class="flex paper-shadow-z1 list-area__item">
+								<img src="img/channels/channel--8.png" class="img-responsive" alt="some text">
+								<div class="detail">
+									<a href="#" target="_blank" class="detail__name">Маш Милаш</a>
+									<div class="detail__count">1 000 000 +</div>
+									<div class="detail__sign">подписчиков</div>
+								</div>
+							</div>
+						</div>
+						<div class="list-area__column">
+							<div class="flex paper-shadow-z1 list-area__item">
+								<img src="img/channels/channel--9.png" class="img-responsive" alt="some text">
+								<div class="detail">
+									<a href="#" target="_blank" class="detail__name">LizzzTV</a>
+									<div class="detail__count">2 200 000 +</div>
+									<div class="detail__sign">подписчиков</div>
+								</div>
+							</div>
+							<div class="flex paper-shadow-z1 list-area__item">
+								<img src="img/channels/channel--10.png" class="img-responsive" alt="some text">
+								<div class="detail">
+									<a href="#" target="_blank" class="detail__name">Костя Павлов</a>
+									<div class="detail__count">1 000 000 +</div>
+									<div class="detail__sign">подписчиков</div>
+								</div>
+							</div>
+							<div class="flex paper-shadow-z1 list-area__item">
+								<img src="img/channels/channel--11.png" class="img-responsive" alt="some text">
+								<div class="detail">
+									<a href="#" target="_blank" class="detail__name">Костя Павлов</a>
+									<div class="detail__count">540 000 +</div>
+									<div class="detail__sign">подписчиков</div>
+								</div>
+							</div>
+							<div class="flex paper-shadow-z1 list-area__item">
+								<img src="img/channels/channel--12.png" class="img-responsive" alt="some text">
+								<div class="detail">
+									<a href="#" target="_blank" class="detail__name">Костя Павлов</a>
+									<div class="detail__count">800 000 +</div>
+									<div class="detail__sign">подписчиков</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			<footer class="footer footer--black">
+				<div class="flex footer__content">
+					<div class="footer__item">
+						<span class="icon-arrow--b footer__link-icon"></span>
+						<a href="#" class="transition footer__link footer__link--order">Оставить заявку</a>
+					</div>
+					<div class="footer__item">
+						<span class="icon-arrow--b footer__link-icon"></span>
+						<a href="#" class="transition footer__link">Выполнено: 215 проектов</a>
+					</div>
+				</div>
+			</footer>
+
+		</div>
+
 	</div>
 
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="bower_components/slick-carousel/slick/slick.min.js"></script>
+	<script src="bem_components/carousel/carousel.component.js"></script>
 
 </body>
 
