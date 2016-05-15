@@ -84,3 +84,11 @@
 .likearts-content .footer--black .footer__link:hover {
   border-bottom: 2px solid #000;
 }
+.likearts-content .copyright {
+  font-size: 1.6rem;
+}
+@media screen and (max-width: 768px) {
+  .likearts-content .copyright {
+    font-size: 1.3rem;
+  }
+}

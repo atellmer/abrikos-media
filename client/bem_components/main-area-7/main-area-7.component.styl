@@ -1,0 +1,125 @@
+@import 'nib'
+
+$bg-color = #FFF
+$lk-yellow = #fcde02
+$lk-green = #8ac500
+
+$phone = 640px
+$tablet = 768px
+$notebook = 1024px
+$desktop = 1600px
+$full-hd = 1920px
+
+$container-width = 1550px
+
+.likearts-content .main-area--7
+	background-color #FFF
+	color #000
+	
+.likearts-content .main-area--7 .main-container
+	position relative
+	
+.likearts-content .main-area--7 .main-container__title
+	font-family 'Intro'
+	font-weight 900
+	margin 0
+	
+.likearts-content .main-area--7 .main-container__content
+	flex-flow column wrap
+	width 100%
+	max-width 935px
+	margin 50px auto
+	@media screen and (max-width: 992px)
+		margin 50px 0
+		padding 0 20px
+
+.likearts-content .main-area--7 .main-container__title--h2
+	font-size 5.6rem
+	text-align left
+	width 100%
+	margin 0 0 0 10px
+	@media screen and (max-width: 992px)
+		font-size 5rem
+		text-align center
+		margin 0
+	@media screen and (max-width: $phone)
+		font-size 3rem
+		
+.likearts-content .main-area--7 .list
+	width 100%
+	align-items flex-start
+	margin 30px 0 0 0
+	@media screen and (max-width: 992px)
+		flex-flow row wrap
+	@media screen and (max-width: $phone)
+		margin 10px 0 0 0
+	
+.likearts-content .main-area--7 .list__column
+	width 50%
+	margin 0 10px
+	@media screen and (max-width: 992px)
+		width 100%
+		margin 0
+	
+.likearts-content .main-area--7 .list__column--left
+	margin-right 20px
+	@media screen and (max-width: 992px)
+		margin-right 0
+	
+.likearts-content .main-area--7 .list__column--right
+	margin-left 20px
+	@media screen and (max-width: 992px)
+		margin-left 0
+	
+.likearts-content .main-area--7 .list__item
+	width 100%
+	height auto
+	margin 50px 0
+	justify-content flex-start
+	&:last-child
+		margin 50px 0 0 0
+	@media screen and (max-width: $tablet)
+		margin 30px 0
+		&:last-child
+			margin 30px 0 0 0
+	@media screen and (max-width: $phone)
+		flex-flow row wrap
+	
+.likearts-content .main-area--7 .info
+	margin 0 35px
+	width 100%
+	@media screen and (max-width: $phone)
+		margin 20px 0 0 0
+		text-align center
+
+.likearts-content .main-area--7 .info__name
+	font-family 'Intro'
+	font-size 2rem
+	font-weight 700
+	line-height 1
+	@media screen and (max-width: $phone)
+		font-size 1.6rem
+	
+.likearts-content .main-area--7 .info__position
+	font-size 1.4rem
+	color #7f7f7f
+	@media screen and (max-width: $phone)
+		font-size 1.2rem
+	
+.likearts-content .main-area--7 .info__links
+	margin 20px 0 0 0
+	font-size 1.3rem
+	@media screen and (max-width: $phone)
+		margin 5px 0 0 0
+	
+.likearts-content .main-area--7 .info__link
+	color #cda761
+	margin 0 0 0 5px
+	
+.likearts-content .main-area--7 .info__icon
+	display inline-block
+	
+.likearts-content .main-area--7 .list__pic
+	min-width 100px
+	@media screen and (max-width: $phone)
+		margin 0 auto
